@@ -10,6 +10,7 @@ class Zoo {
         
         habitats.add(HabitatFactory.createHabitat("terrestrial", "Savanna", 35.0, 5000));
         habitats.add(HabitatFactory.createHabitat("aquatic", "Ocean Exhibit", 22.0, 10000));
+        habitats.add(HabitatFactory.createHabitat("tundra", "Polar Bear Enclosure", -10.0, 2000));
     }
 
     public void addAnimalToHabitat(String habitatName, Animal animal) {

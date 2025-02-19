@@ -8,6 +8,8 @@ class AnimalFactory {
             return new Shark(name);
         } else if (type.equalsIgnoreCase("elephant")) {
             return new Elephant(name);
+        }else if(type.equalsIgnoreCase("polar bear")) {
+            return new PolarBear(name);
         } else {
             throw new IllegalArgumentException("Invalid animal type: " + type);
         }

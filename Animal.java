@@ -12,9 +12,7 @@ abstract class Animal {
     public void displayInfo() {
         System.out.println(this.name + " (" + this.species + ")");
     }
+
 }
-
-
-
 
 
