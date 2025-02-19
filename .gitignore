@@ -1,1 +1,9 @@
+# Ignore compiled Java class files
 *.class
+
+# Other files and directories you might want to ignore can be added below
+# For example:
+# target/
+# build/
+# .idea/
+# *.log
