@@ -1,4 +1,4 @@
-public class PolarBear extends Animal{
+class PolarBear extends Animal{
     
     public PolarBear(String name) {
         super(name, "Bear");

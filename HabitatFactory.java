@@ -4,7 +4,7 @@ class HabitatFactory {
             return new TerrestrialHabitat(name, temperature, area);
         } else if (type.equalsIgnoreCase("aquatic")) {
             return new AquaticHabitat(name, temperature, area);
-        }else if(type.equalsIgnoreCase("tundra")){
+        }else if(type.equalsIgnoreCase("tundra")){ // added our own for testing
             return new TundraHabitat(name, temperature, area);
         } else {
             throw new IllegalArgumentException("Invalid habitat type: " + type);

@@ -7,12 +7,10 @@ abstract class Animal {
         this.species = species;
     }
 
-    public abstract void makeSound();
+    public abstract void makeSound(); // fot polymorphic behavior
 
     public void displayInfo() {
         System.out.println(this.name + " (" + this.species + ")");
     }
 
-}
-
-
+}// class

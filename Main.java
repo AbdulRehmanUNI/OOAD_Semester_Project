@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("================== Zoo 1 ==================");
+        System.out.println("\n================== Zoo 1 ==================\n");
         
         Zoo myZoo = new Zoo();
 
@@ -20,7 +20,8 @@ public class Main {
 
         myZoo.makeAllAnimalsSound();
 
-        System.out.println("================== Zoo 2 ==================");
+        // created a new zoo for our testing
+        System.out.println("\n================== Zoo 2 ==================\n");
 
         Zoo myZoo2 = new Zoo();
 
@@ -35,8 +36,6 @@ public class Main {
         myZoo2.displayZooInfo();
 
         myZoo2.makeAllAnimalsSound();
-
-
-        System.gc();
-    }
-}
+        
+    }// main
+}// class

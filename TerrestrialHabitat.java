@@ -1,4 +1,3 @@
-
 class TerrestrialHabitat extends Habitat {
     public TerrestrialHabitat(String name, double temperature, double area) {
         super(name, temperature, area);

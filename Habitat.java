@@ -1,11 +1,10 @@
-
 import java.util.*;
 
 abstract class Habitat {
     protected String name;
     protected double temperature;
     protected double area;
-    protected List<Animal> animals;
+    protected List<Animal> animals; // association implementation
 
     public Habitat(String name, double temperature, double area) {
         this.name = name;
@@ -34,6 +33,6 @@ abstract class Habitat {
         System.out.println("Animals in " + name + ":");
         for (Animal a : this.animals) {
             a.displayInfo();
-        }
+        }// for
     }
-}
+}// class
